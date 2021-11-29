@@ -334,6 +334,7 @@ def main(args):
     num_labels = len(label_list)
     tokenizer = BertTokenizer.from_pretrained(args.model, do_lower_case=args.do_lower_case)
     print("sdjhasj")
+    print("xcxc")
 
     special_tokens = {}
     if args.do_eval:
