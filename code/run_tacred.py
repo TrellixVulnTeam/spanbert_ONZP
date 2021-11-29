@@ -335,6 +335,7 @@ def main(args):
     tokenizer = BertTokenizer.from_pretrained(args.model, do_lower_case=args.do_lower_case)
     print("sdjhasj")
     print("xcxc")
+    print("测试")
 
     special_tokens = {}
     if args.do_eval:
