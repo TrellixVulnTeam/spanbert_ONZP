@@ -333,6 +333,7 @@ def main(args):
     id2label = {i: label for i, label in enumerate(label_list)}
     num_labels = len(label_list)
     tokenizer = BertTokenizer.from_pretrained(args.model, do_lower_case=args.do_lower_case)
+    print("sdjhasj")
 
     special_tokens = {}
     if args.do_eval:
