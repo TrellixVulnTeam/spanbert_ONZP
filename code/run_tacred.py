@@ -11,6 +11,7 @@ import random
 import time
 import json
 
+
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, TensorDataset
@@ -294,6 +295,7 @@ def evaluate(model, device, eval_dataloader, eval_label_ids, num_labels, verbose
         logger.info("***** Eval results *****")
         for key in sorted(result.keys()):
             logger.info("  %s = %s", key, str(result[key]))
+            print("ddddd")
     return preds, result
 
 

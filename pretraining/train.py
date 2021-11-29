@@ -164,6 +164,7 @@ def train(args, trainer, task, epoch_itr):
         meter = trainer.get_meter(k)
         if meter is not None:
             meter.reset()
+            print()
 
 
 def get_training_stats(trainer):
